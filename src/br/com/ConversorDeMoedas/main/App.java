@@ -1,30 +1,34 @@
 package br.com.ConversorDeMoedas.main;
-import br.com.ConversorDeMoedas.functions.LimpaTerminal;
 import br.com.ConversorDeMoedas.functions.CriaParametro;
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.URL;
-import java.util.Scanner;
+import br.com.ConversorDeMoedas.functions.LimpaTerminal;
+
 public class App {
     public static void main(String[] args) throws Exception {
-        String ChaveApi = "8DDHTXPWWUE1RRJS";
-        String MoedaAtual = "USD";
-        String TrasferidaMoeda = "EUR";
-
-        String ApiUrl = "https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE" +
-                        "&from_currency=" + MoedaAtual +
-                                "&to_currency=" + TrasferidaMoeda +
-                                "&apikey=" + ChaveApi ;
-
-        URL url = new URL(ApiUrl);
-
-        CriaParametro criaParametro = new CriaParametro();
-        System.out.println("Hello, World!");
-//      String nome = criaParametro.CriaString("nome: ");
-        int idade = criaParametro.CriaInt("Número: ");
         LimpaTerminal limpaTerminal = new LimpaTerminal();
-        limpaTerminal.ApagaTerminal();
-        Thread.sleep(1000);
+        Conversor conversor = new Conversor();
+        CriaParametro criaParametro = new CriaParametro();
+        while (true) {
+            System.out.println("[1]Coverter moedas");
+            System.out.println("[2]ver nomeclatura das moedas ");
+            System.out.println("[3]Sair");
+            int opcao = criaParametro.CriaInt("sua opcão: ");
+            if (opcao == 1){
+                conversor.converteMoeda();
+
+            }else if (opcao == 2){
+                conversor.nomeclaturaMoedas();
+
+            } else if (opcao == 3) {
+
+                System.out.println("Saindo...");
+                Thread.sleep(1000);
+                break;
+
+            }else {
+                System.out.println("digite uma opção valida!");
+            }
+
+        }
 
     }
 }
