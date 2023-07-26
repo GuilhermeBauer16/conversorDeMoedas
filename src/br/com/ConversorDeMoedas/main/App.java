@@ -4,19 +4,23 @@ import br.com.ConversorDeMoedas.functions.LimpaTerminal;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        LimpaTerminal limpaTerminal = new LimpaTerminal();
+
         Conversor conversor = new Conversor();
         CriaParametro criaParametro = new CriaParametro();
         while (true) {
+            System.out.println(criaParametro.titulo("conversor Moedas", 30));
             System.out.println("[1]Coverter moedas");
             System.out.println("[2]ver nomeclatura das moedas ");
             System.out.println("[3]Sair");
+            System.out.println(criaParametro.linha(30));
             int opcao = criaParametro.CriaInt("sua opcão: ");
-            if (opcao == 1){
-                conversor.converteMoeda();
 
-            }else if (opcao == 2){
-                conversor.nomeclaturaMoedas();
+            if (opcao == 1) {
+                System.out.println(criaParametro.titulo("Converter moedas", 30));
+                conversor.converteMoeda();
+            } else if (opcao == 2) {
+                System.out.println(criaParametro.titulo("Nomeclatura das moedas", 30));
+                // conversor.nomeclaturaMoedas();
 
             } else if (opcao == 3) {
 
@@ -24,12 +28,9 @@ public class App {
                 Thread.sleep(1000);
                 break;
 
-            }else {
+            } else {
                 System.out.println("digite uma opção valida!");
             }
-
         }
-
     }
 }
-
