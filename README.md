@@ -12,6 +12,20 @@ Com esse conversor de moedas, o usuário será capaz de converter as seguintes m
 ## Aprendizado 
 Esse projeto proporcionou muitas aprendizagens relacionadas ao Java. Enfrentei algumas dificuldades ao fazer a API funcionar corretamente e ao implementar a verificação das moedas para evitar conversões de moedas não presentes no ArrayList. No entanto, essas dificuldades me ajudaram a aprimorar minha expertise em pesquisar soluções para os problemas.
 
+## Funcionalidades 
+
+* O usuário será capaz de converter as seguintes moedas.
+  * Real
+  * Dólar
+  * Euro
+  * Libra
+  * Rublo
+  * Yuan
+  * Iene
+  * Peso Argentino
+
+ * O usuário também podera visualizar uma lista com todas as moedas disponíveis 
+    
 ## Autor 
 
  www.linkedin.com/in/guilherme-bauer-desenvolvedor
