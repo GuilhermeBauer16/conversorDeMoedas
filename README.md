@@ -1,8 +1,8 @@
 # Conversor de moedas 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Com esse conversor de moedas, o usuário será capaz de converter as seguintes moedas: Real, Dólar, Euro, Libra, Rublo, Yuan, Iene e Peso Argentino. Além disso, o usuário poderá consultar as moedas disponíveis para fazer a conversão.
 
-## Folder Structure
+## Exemplo de funcionamento 
 
 The workspace contains two folders by default, where:
 
