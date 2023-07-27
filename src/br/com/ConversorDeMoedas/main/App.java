@@ -20,7 +20,7 @@ public class App {
                 conversor.converteMoeda();
             } else if (opcao == 2) {
                 System.out.println(criaParametro.titulo("Nomeclatura das moedas", 30));
-                // conversor.nomeclaturaMoedas();
+                conversor.mostraMoedas();
 
             } else if (opcao == 3) {
 
