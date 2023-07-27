@@ -4,10 +4,11 @@ Com esse conversor de moedas, o usuário será capaz de converter as seguintes m
 
 ## Exemplo de funcionamento 
 
-The workspace contains two folders by default, where:
+![image](https://github.com/GuilhermeBauer16/conversorDeMoedas/assets/123701893/d1295066-9377-42ff-a4b3-4711b82e235c)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+![image](https://github.com/GuilhermeBauer16/conversorDeMoedas/assets/123701893/dd4cccb3-c89f-4a92-a193-218c1c25afb5)
+
+
 
 Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
