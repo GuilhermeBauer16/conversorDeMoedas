@@ -9,6 +9,10 @@ Com esse conversor de moedas, o usuário será capaz de converter as seguintes m
 
 ![image](https://github.com/GuilhermeBauer16/conversorDeMoedas/assets/123701893/dd4cccb3-c89f-4a92-a193-218c1c25afb5)
 
+
+https://github.com/GuilhermeBauer16/conversorDeMoedas/assets/123701893/2e85bf3e-da50-4238-931a-1d256b532586
+
+
 ## Aprendizado 
 Esse projeto proporcionou muitas aprendizagens relacionadas ao Java. Enfrentei algumas dificuldades ao fazer a API funcionar corretamente e ao implementar a verificação das moedas para evitar conversões de moedas não presentes no ArrayList. No entanto, essas dificuldades me ajudaram a aprimorar minha expertise em pesquisar soluções para os problemas.
 
